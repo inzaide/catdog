@@ -1,0 +1,29 @@
+{
+  "name": "tagsbot",
+  "version": "2.5.0",
+  "description": "SQLite based tag system for the Idiot's Guide server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "York",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "discord.js": "^11.1.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "hbs": "^4.0.1",
+    "helmet": "^3.6.0",
+    "marked": "^0.3.6",
+    "moment": "^2.18.1",
+    "moment-duration-format": "^1.3.0",
+    "ms": "^0.7.3",
+    "passport": "^0.3.2",
+    "passport-discord": "^0.1.2",
+    "random-cat": "^1.0.1",
+    "sqlite": "^2.7.0"
+  }
+}

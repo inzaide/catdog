@@ -1,0 +1,14 @@
+{
+  "ownerId": ["139234964699873281"],
+  "clientID": "315560081045323778",
+  "modRole": "Moderator",
+  "adminRole": "Admin",
+  "token": "MzI3MTk0NzI0MzgzNDU3Mjkw.DCxzWg.7FS_qhymDjdB8rtbCgQPtwPrBUo",
+  "prefix": "cd!",
+  "dash": {
+    "port": 8000,
+    "oauthSecret": "",
+    "callback": "",
+    "domain": ""
+  }
+}
