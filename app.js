@@ -14,6 +14,11 @@ const log = message => {
 };
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
+client.playlists = new Discord.Collection();
+fs.readdir('./events/', (err, files) => {
+  if (err) console.error(err);
+  log(`Loading a total of ${files.length} events.`);
+};
 fs.readdir('./commands/', (err, files) => {
   if (err) console.error(err);
   log(`Loading a total of ${files.length} commands.`);
